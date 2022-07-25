@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="tellmyowner-f83463" version="0.0.0">
+ <names>
+  <name lang="en_US">Tell my owner</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <descriptions>
+    <description lang="en_US">Using this application, your robot will be able to recall its
+owner's name whenever asked.</description>
+   </descriptions>
+   <triggerSentences>
+    <sentence lang="en_US">“Who is your human?”</sentence>
+    <sentence lang="en_US">“Who is your boss?”</sentence>
+    <sentence lang="en_US">“Whose are you?”</sentence>
+    <sentence lang="en_US">“Who is your owner?”</sentence>
+    <sentence lang="en_US">owner</sentence>
+    <sentence lang="en_US">who is your owner</sentence>
+    <sentence lang="en_US">who is your boss</sentence>
+    <sentence lang="en_US">who do you belong to</sentence>
+   </triggerSentences>
+   <loadingResponses/>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="get_name_activity">
+   <nature>interactive</nature>
+   <triggerSentences/>
+   <loadingResponses/>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>
